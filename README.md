@@ -31,7 +31,7 @@ This project focuses on frontend architecture, UI behavior, and state management
 ---
 
 ## Project Structure
-
+```text
 src/
 │
 ├── pages/
@@ -56,6 +56,7 @@ src/
 │
 ├── App.jsx
 └── main.jsx
+```
 
 ---
 
