@@ -1,119 +1,158 @@
- # HireFlow – Job Discovery Platform
+HireFlow – Job Discovery Platform
 
-HireFlow is a frontend job discovery application built using React and Tailwind CSS.  
-It allows users to browse job listings, filter them by category, save jobs, and simulate applying for a position — all with a clean and responsive UI.
+HireFlow is a React-based job discovery platform that simulates the core frontend behavior of a real-world job portal.
+The project demonstrates frontend feature ownership, including UI architecture, state handling, routing, persistence, and user interaction flows.
 
-This project focuses on frontend architecture, UI behavior, and state management, simulating how a real job portal works.
+It is designed to showcase how a junior frontend developer can own and implement production-like UI features end-to-end using modern React practices.
 
----
+⸻
 
-## Features
+Live Demo
 
-- Browse job listings  
-- Filter jobs by category  
-- Save / remove jobs (localStorage)  
-- View saved jobs on a separate page  
-- Apply to a job (simulated flow)  
-- Fast and responsive UI  
-- Clean component-based architecture  
+🔗 [click here](https://hire-flow-jet.vercel.app/)
 
----
+⸻
+
+Screenshots
+```
+📸 Home View
+
+
+
+
+
+📸 Saved Jobs Page
+
+
+📸 Apply Job Flow
+
+
+
+```
+⸻
+
+## Core Features
+	•	Browse job listings from a simulated data source
+
+	•	Filter jobs by category
+	•	Save and remove jobs with persistent storage
+
+	•	View saved jobs on a dedicated page
+	•	Simulated job application flow
+
+	•	Responsive and accessible UI
+
+	•	Graceful handling of loading, empty, and error states
+
+⸻
 
 ## Tech Stack
-
-- React  
-- JavaScript (ES6+)  
-- Tailwind CSS  
-- React Router  
-- LocalStorage  
-- Vite  
-
----
+	•	React
+	•	JavaScript (ES6+)
+	•	Tailwind CSS
+	•	React Router
+	•	LocalStorage
+	•	Vite
 
 ## Project Structure
 ```text
 src/
 │
 ├── pages/
-│   ├── Home.jsx
-│   ├── SavedJobs.jsx
-│   └── ApplyJob.jsx
+│   ├── Home.jsx        # Job listing and filtering view
+│   ├── SavedJobs.jsx  # Persisted saved jobs view
+│   └── ApplyJob.jsx   # Simulated application flow
 │
 ├── components/
-│   ├── JobCard.jsx
-│   ├── FilterBar.jsx
-│   ├── Loader.jsx
-│   └── ErrorBox.jsx
+│   ├── JobCard.jsx    # Reusable job display component
+│   ├── FilterBar.jsx  # Category filtering logic
+│   ├── Loader.jsx     # Loading state UI
+│   └── ErrorBox.jsx   # Error and empty state handling
 │
 ├── data/
-│   └── jobs.js
+│   └── jobs.js        # Mock job dataset
 │
 ├── services/
-│   └── jobApi.js
+│   └── jobApi.js      # Simulated async data fetching
 │
 ├── utils/
-│   └── storage.js
+│   └── storage.js    # LocalStorage abstraction
 │
-├── App.jsx
-└── main.jsx
+├── App.jsx            # Routing and layout
+└── main.jsx           # Application entry point
 ```
+## My Responsibilities
 
----
+	•	Designed and implemented the complete frontend UI flow
 
-## How It Works
+	•	Structured components to keep UI logic isolated from data handling and improve maintainability
 
-- Job data is stored locally (mock API)
-- Jobs are fetched asynchronously
-- Users can:
-  - Search jobs
-  - Filter by category
-  - Save jobs
-  - View saved jobs
-  - Apply via a demo page
-- Saved jobs persist using localStorage
+	•	Managed application state for filtering, saving, and navigation
 
----
+	•	Implemented persistent data storage using localStorage
 
-## Why Mock Data?
+	•	Handled UI states such as loading, empty results, and errors
 
-This project focuses on frontend development.
 
-In real-world applications:
-- Job data comes from backend APIs
-- Authentication & data storage are handled server-side
+	•	Built responsive layouts using Tailwind CSS
 
-Mock data is used to:
-- Simulate real API behavior
-- Avoid CORS issues
-- Focus on UI, state, and logic
+	•	Configured routing for multi-page 
+  navigation using React Router
 
----
+⸻
 
-## What I Learned
+## Data Handling Approach
 
-- React component structure
-- State management & filtering
-- React Router for navigation
-- Handling UI states (loading, empty, error)
-- Working with localStorage
-- Building real-world frontend features
+Job data is served using mock data with simulated asynchronous fetching.
 
----
+This approach was chosen to:
+	•	Focus on frontend behavior and UI logic
 
-## Future Improvements
+	•	Simulate real API interaction patterns
 
-- Pagination
-- Search by company
-- Sort by latest jobs
-- Backend integration
-- Authentication
-- Job application form
+	•	Avoid backend dependency while building core features
 
----
+In a production environment, job data would be served from backend APIs with authentication and server-side persistence.
 
-## Author
+⸻
 
-**Sulbha Rasal**  
-Frontend Developer  
-Pune, India  
-Open to Frontend Intern / Junior Roles
+## Engineering Highlights
+
+	•	Clean separation between UI components and data logic
+
+	•	Abstracted storage logic into reusable utilities for maintainability
+
+	•	Structured state to avoid unnecessary re-renders
+
+	•	Routing-based page flow using React Router
+
+	•	Defensive UI handling for edge cases such as empty job results and fetch failures
+
+	•	Ensured synchronization between saved jobs state and localStorage to prevent UI 
+  
+
+⸻
+
+## Limitations & Next Steps
+
+This project intentionally focuses on frontend responsibilities only.
+
+## Planned enhancements:
+
+	•	Backend API integration
+	•	Pagination and sorting
+	•	Search by company or role
+	•	Authentication and user profiles
+	•	Job application form with validation
+
+⸻
+
+## Why This Project
+
+HireFlow was built to demonstrate real-world frontend problem-solving, not just UI styling.
+
+⸻
+
+## 📌 Status
+
+Stable frontend feature set complete. Further improvements planned.
