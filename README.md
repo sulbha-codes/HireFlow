@@ -13,21 +13,23 @@ Live Demo
 
 ⸻
 
-Screenshots
-```
-📸 Home View
-<img width="959" height="873" alt="Screenshot 2026-01-22 at 1 00 53 PM" src="https://github.com/user-attachments/assets/c21fdb16-31cf-4f5a-9f56-9f8c81531522" />
 
-📸 Saved Jobs Page
-<img width="959" height="458" alt="Screenshot 2026-01-22 at 1 05 36 PM" src="https://github.com/user-attachments/assets/7383e3ac-0e16-4a27-8287-62ec8e814aad" />
+## 📸 Screenshots
+
+### 🏠 Home View
+![Home View](./public/home-view.png)
+
+### 💾 Saved Jobs Page
+![Saved Jobs](./public/saved-job.png)
+
+### 📝 Apply Job Flow
+![Apply Job Flow](./public/apply-job-flow.png)
+
+### 📄 Application Submission
+![Application Submission](./public/application-submission.png)
 
 
-📸 Apply Job Flow
 
-<img width="959" height="458" alt="Screenshot 2026-01-22 at 1 04 32 PM" src="https://github.com/user-attachments/assets/a8aaa99a-5625-499e-b366-2b81381632b5" />
-
-
-```<img width="959" height="458" alt="Screenshot 2026-01-22 at 1 04 22 PM" src="https://github.com/user-attachments/assets/ecd76ce3-2c8b-4bfd-9355-9d244ab043a2" />
 
 ⸻
 
